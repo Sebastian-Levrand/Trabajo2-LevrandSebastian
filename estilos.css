@@ -1,0 +1,33 @@
+.elEstilo
+    {
+    width: 100px;
+    }
+     h1 {
+         color: brown;
+        }
+     table;
+    th;
+    td{
+        border:3px solid green;
+      }
+    
+    @media(max-width:700px)
+     {
+        .elEstilo
+        {
+        width:500px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+        }
+    }
+h1{color: red;
+	text-align: center;
+	font-weight: bold;
+	font-stretch: normal;
+	
+}
+h2{color:blue}
+p{font-size: medium; color:black; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
+table {border: chocolate;}
+td {font-family: Arial, Helvetica, sans-serif;}	
+li {font-family: Arial, Helvetica, sans-serif;}
