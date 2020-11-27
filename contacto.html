@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">    
+    <title>Trabajo Práctico N°2</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+    <ul class="navbar-nav">
+        <img src="loguito_2.jpg" alt="Mis Mascotas" style="width:50px; height: 40px;">
+      <li class="nav-item">
+        <a class="nav-link" href="dog.html">El Viejo Dog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="lara.html">La linda Lara</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="toto.html">El Terrible Toto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Página Principal</a>
+      </li>
+    </ul>
+</nav>
+
+  
+<div class="container p-3 my-3 bg-primary text-white">
+    <div class="row">
+      <div class="col-sm-12"><H3>Gracias por contactarte con nosotros...</H3></div>
+    </div>
+  </div>
+
+<div class="container p-3 my-3">
+  <form action="/action_page.php" class="was-validated">
+    <div class="row">
+     <div class="col-sm-12">
+    <!--etiqueta y caja de texto para el Nombre-->
+    <div class="form-group">
+      <label for="nombre"><b>Nombre:</b></label>
+      <input type="text" class="form-control" id="nombre" placeholder="Haz clic para ingresar tu nombre aqui" name="nombre" required>
+      <div class="valid-feedback">Datos ingresados</div>
+      <div class="invalid-feedback">El campo está vacio - Ingresa tu nombre</div>
+    </div>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+   <!--etiqueta y caja de texto para el Apellido-->
+    <div class="form-group">
+       <label for="apellido"><b>Apellido</b></label>
+       <input type="text" class="form-control" id="apellido" placeholder="Haz clic para ingresar tu apellido aqui" name="nombre" required>
+       <div class="valid-feedback">Datos ingresados</div>
+       <div class="invalid-feedback">El campo está vacio - Ingresa tu apellido</div>
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12">
+   <!--etiqueta y caja de texto para el email-->
+    <div class="form-group">
+        <label for="email"><b>Correo Electronico</b></label>
+        <input type="email" class="form-control" id="email" placeholder="Haz clic para ingresar tu correo electronico aqui" name="email" required>
+        <div class="valid-feedback">Datos ingresados</div>
+        <div class="invalid-feedback">El campo está vacio - Ingresa tu correo eléctronico</div>
+     </div>
+     </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+     <!--etiqueta y caja de texto para el telefono-->
+      <div class="form-group">
+          <label for="telefono"><b>Teléfono</b></label>
+          <input type="number" class="form-control" id="telefono" placeholder="Haz clic para ingresar tu número de teléfno aqui" name="telefono" required>
+          <div class="valid-feedback">Datos ingresados</div>
+          <div class="invalid-feedback">El campo está vacio - Ingresa tu número de teléfono</div>
+       </div>
+       </div>
+      </div>
+    <div class="row">
+      <div class="col-sm-12">
+     <!--etiqeta y caja de texto para elmensaje-->
+        <div class="form-group">
+        <label for="mensaje">Mensaje:<span class="red">*</span></label>
+        <textarea class="form-control" id="mensae" name="mensaje" rows="3" min="25" required></textarea>
+        <div class="valid-feedback">Datos ingresados</div>
+        <div class="invalid-feedback">El campo está vacio - Ingresa el mensaje que deseas enviar</div>
+    </div>
+    </div>
+    </div>
+<!-- Botón enviar-->
+
+<button type="submit" class="btn btn-primary btn-sm">Enviar</button>
+
+  </form>
+</div>
+    
+</body>
+</html>
